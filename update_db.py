@@ -15,6 +15,7 @@ def run_job():
     print(result.shape)
     time.sleep(60)
     print('update db finished')
+    print(str(sys.argv))
 
 
 if __name__ == '__main__':
